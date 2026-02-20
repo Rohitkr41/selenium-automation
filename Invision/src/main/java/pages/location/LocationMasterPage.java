@@ -1,35 +1,3 @@
-//package pages.location;
-//
-//import java.time.Duration;
-//
-//import org.openqa.selenium.By;
-//import org.openqa.selenium.WebDriver;
-//import org.openqa.selenium.support.ui.ExpectedConditions;
-//import org.openqa.selenium.support.ui.WebDriverWait;
-//
-//public class LocationMasterPage {
-//
-//    WebDriver driver;
-//    WebDriverWait wait;
-//
-//    public LocationMasterPage(WebDriver driver) {
-//        this.driver = driver;
-//        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-//    }
-//
-//    By locationMasters = By.xpath("//*[contains(text(),'Location Masters')]");
-//    By country = By.xpath("//*[normalize-space()='Country']");
-//
-//    public void clickLocationMasters() {
-//        wait.until(ExpectedConditions.elementToBeClickable(locationMasters)).click();
-//    }
-//
-//    public boolean isCountryVisible() {
-//        return wait.until(ExpectedConditions.visibilityOfElementLocated(country)).isDisplayed();
-//    }
-//}
-
-
 
 package pages.location;
 
