@@ -14,7 +14,7 @@ public class LocationMasterTest extends BaseTest {
     public void verifyLocationMasterDropdown() {
 
         LoginPage loginPage = new LoginPage(driver);
-        loginPage.login("superAdmin", "Super@123");
+        loginPage.login("username", "password");
 
         LocationMasterPage locationPage = new LocationMasterPage(driver);
 
